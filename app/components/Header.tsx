@@ -14,7 +14,7 @@ const leftLinks = [
 
 const rightLinks = [
   { href: "/sponsorship", label: "Sponsorship" },
-  { href: "/contacts", label: "Contacts" },
+  { href: "/contact", label: "Contact" },
 ];
 
 function NavGroup({ links }: { links: typeof leftLinks }) {

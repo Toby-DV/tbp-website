@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { ProstheticArmIllustration } from "./components/ProstheticArmIllustration";
 
@@ -22,6 +23,7 @@ export default function Home() {
           <ProstheticArmIllustration className="h-auto w-full max-w-md text-brand" />
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
