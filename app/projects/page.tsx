@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 
 export default function ProjectsPage() {
@@ -7,6 +8,7 @@ export default function ProjectsPage() {
       <main className="flex flex-1 items-center justify-center">
         <h1 className="text-3xl font-semibold text-brand">Projects — coming soon</h1>
       </main>
+      <Footer />
     </div>
   );
 }
