@@ -34,6 +34,7 @@ export default function OurTeamPage() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1 px-16 py-16">
+        <h1 className="mb-10 text-4xl font-extrabold text-brand">Our Team</h1>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member) => (
             <TeamMemberCard
