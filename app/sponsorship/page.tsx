@@ -7,7 +7,7 @@ const sponsors = [
     logoSrc: "/tbp-logo-nobg.png",
     name: "University of Bath",
     description: "The University of Bath generously sponsor our research and development.",
-    website: "bath.ac.uk"
+    website: ""
   }
 ]
 
