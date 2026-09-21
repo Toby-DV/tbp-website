@@ -13,7 +13,7 @@ export function Footer() {
       <div className="text-right text-sm leading-relaxed">
         <p>
           <a
-            href="mailto:undefinedEmail@bath.ac.uk"
+            href="mailto:TBP@bath.ac.uk"
             className="font-medium text-brand transition-colors hover:text-brand-accent"
           >
             TBP@bath.ac.uk
