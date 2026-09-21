@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Readex_Pro } from "next/font/google";
 
 const readexPro = Readex_Pro({
@@ -18,17 +21,26 @@ const rightLinks = [
 ];
 
 function NavGroup({ links }: { links: typeof leftLinks }) {
+  const pathname = usePathname();
+
   return (
     <nav className="flex items-center gap-24">
-      {links.map((link) => (
-        <Link
-          key={link.href}
-          href={link.href}
-          className={`${readexPro.className} text-lg font-medium tracking-wide text-brand transition-colors hover:text-brand-accent`}
-        >
-          {link.label}
-        </Link>
-      ))}
+      {links.map((link) => {
+        const isActive =
+          pathname === link.href || pathname.startsWith(`${link.href}/`);
+
+        return (
+          <Link
+            key={link.href}
+            href={link.href}
+            className={`${readexPro.className} text-lg font-medium tracking-wide text-brand underline-offset-4 transition-colors hover:text-brand-accent ${
+              isActive ? "underline" : "no-underline"
+            }`}
+          >
+            {link.label}
+          </Link>
+        );
+      })}
     </nav>
   );
 }

@@ -4,37 +4,30 @@ import { TeamMemberCard } from "../components/TeamMemberCard";
 
 const teamMembers = [
   {
-    name: "Jane Doe",
-    role: "Team Lead",
+    name: "Maxim Bezpalko",
+    role: "Electrical Engineering",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
   },
   {
-    name: "John Smith",
-    role: "Mechanical Engineer",
+    name: "Zavier Achiampong",
+    role: "Electrical Engineering",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
   },
   {
-    name: "Alex Johnson",
-    role: "Electronics Engineer",
+    name: "Toby Davis-Varnell",
+    role: "Software Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-  },
-  {
-    name: "Sam Taylor",
-    role: "Software Engineer",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-  },
+  }
 ];
 
 export default function OurTeamPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="flex-1 px-16 py-16">
-        <h1 className="mb-10 text-4xl font-extrabold text-brand">Our Team</h1>
+      <main className="flex-1 px-16 py-4">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member) => (
             <TeamMemberCard
