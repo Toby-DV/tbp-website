@@ -16,7 +16,7 @@ export function Footer() {
             href="mailto:undefinedEmail@bath.ac.uk"
             className="font-medium text-brand transition-colors hover:text-brand-accent"
           >
-            undefinedEmail@bath.ac.uk
+            TBP@bath.ac.uk
           </a>
         </p>
         <p className="text-brand/70">
