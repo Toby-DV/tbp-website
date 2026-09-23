@@ -42,7 +42,7 @@ export function ProjectCard({
       </div>
       <div className="flex flex-col gap-2 p-6">
         <h3 className="text-xl font-semibold text-brand">{name}</h3>
-        <p className="text-sm text-brand/70">{description}</p>
+        <p className="text-sm text-brand/90">{description}</p>
       </div>
     </Link>
   );

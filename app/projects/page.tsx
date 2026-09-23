@@ -9,6 +9,12 @@ const projects = [
     description:
       "The full production of a transradial prosthetic arm built with the goal of reducing abandonment rates of new prosthetics.",
   },
+  {
+    page: "tactile-feedback",
+    name: "Tactile Feedback Attachment",
+    description: 
+      "A modular haptic feedback system that can be fitted to any prosthesis, restoring a sense of touch to the user."
+  }
 ];
 
 export default function ProjectsPage() {

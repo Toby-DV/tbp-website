@@ -8,7 +8,7 @@ const sponsors = [
     name: "University of Bath",
     description: "The University of Bath generously sponsor our research and development.",
     website: ""
-  }
+  },
 ]
 
 export default function SponsorshipPage() {
