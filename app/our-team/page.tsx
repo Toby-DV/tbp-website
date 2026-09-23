@@ -27,7 +27,7 @@ export default function OurTeamPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="flex-1 px-16 py-4">
+      <main className="px-16 py-16">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member) => (
             <TeamMemberCard

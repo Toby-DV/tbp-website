@@ -16,20 +16,20 @@ function ImagePlaceholder() {
   );
 }
 
-export default function BionicArmPage() {
+export default function TactileFeedbackPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1 px-16 py-16">
         <h1 className="mb-6 text-4xl font-extrabold text-brand">
-          Bionic Arm
+          Vibrotactile Feedback
         </h1>
         <p className="max-w-3xl text-lg text-brand/90">
-          We are building a full transradial prosthetic arm from the ground
-          up, aiming to reduce the rate at which new prostheses are
-          abandoned. The project spans mechanical design, electronics and
-          control software, and will be presented at conferences and future
-          competitions.
+          We are designing and testing a modular haptic feedback system that
+          can be fitted to any prosthesis. The system measures how strongly
+          the user is gripping an object and conveys that grip strength
+          through vibration motors built into an armband, restoring a sense
+          of touch that prostheses usually lack.
         </p>
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <ImagePlaceholder />
