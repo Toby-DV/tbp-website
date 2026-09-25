@@ -22,12 +22,21 @@ export default function ContactPage() {
             Kingdom
           </p>
         </div>
-        <Link
-          href="/join-us"
-          className="mt-4 inline-block border-2 border-brand bg-transparent px-8 py-4 text-lg font-semibold text-brand transition-colors hover:bg-brand/10"
-        >
-          Join Us
-        </Link>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+          <Link
+            href="/join-us"
+            className="inline-block border-2 border-brand bg-transparent px-8 py-4 text-lg font-semibold text-brand transition-colors hover:bg-brand/10"
+          >
+            Join Us
+          </Link>
+          <Link
+          // TODO: Make Sponsor page
+            href=""
+            className="inline-block border-2 border-brand bg-transparent px-8 py-4 text-lg font-semibold text-brand transition-colors hover:bg-brand/10"
+          >
+            Sponsor
+          </Link>
+        </div>
       </main>
       <Footer />
     </div>
